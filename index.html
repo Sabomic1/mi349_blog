@@ -4,17 +4,80 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <title>My Blog</title>
 </head>
 <body>
-    <nav>
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="about.html">About</a></li>
-        </ul>
-    </nav>
-    <h1>My Great Site</h1>
-    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Labore eligendi pariatur reiciendis nemo tempora non aliquid nisi nesciunt itaque impedit commodi harum laudantium ipsam possimus error, cum deserunt, minima nam!</p>
-    <p><img alt="Cop truck" src="oxford-police-jeep.jpg" width="500" /></p>
+    <header>
+        <h1>The Covid blog</h1>
+        <p>How the Covid-19 pandemic affected schools and jobs</p>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="blog">
+        <h2>Blog</h2>
+        <article class="blog-post">
+        <h3>Schools</h3>
+        <p><em>Published on November 5, 2023 by Michael Sabo</em></p>
+        <img src="schoolmeet.jpg" alt="Blog Post Image" height="400" width="600">
+        <p>The COVID-19 pandemic brought about several changes in the education system, impacting students, teachers, and parents alike. With schools forced to close their doors, education transitioned to the digital realm, and online classes became the new normal. For students, adapting to virtual learning posed challenges, from navigating on to online platforms to staying engaged without the standard classroom environment.</p>
+        <p>One significant effect was the shift in grading systems and GPAs. The abrupt move to remote learning prompted educators to reevaluate assessment methods. Some schools adopted pass/fail options due to the unique challenges students faced. The pandemic-induced disruptions affected students differently, and the traditional grading system didn't always capture the full picture of their academic capabilities.</p>
+        <p>Online classes, while a necessary response to the crisis, revealed disparities in accessing technology and internet connectivity. Students from less privileged backgrounds often struggled to participate fully. Parents also found themselves taking on new roles as home-based learning supervisors, adding an extra layer of complexity to the educational landscape.</p>
+        <p>COVID-19 prompted a dramatic shift in how education is brought to our children, with lasting implications for students and educators. As we navigate the post-pandemic educational landscape, there's a growing awareness of the need for inclusive and adaptable approaches to ensure that every student has equal access to quality education.</p>
+        <table>
+            <tr>
+                <th>Year</th>
+                <th>Lowest GPA</th>
+                <th>Highest GPA</th>
+                <th>Average GPA</th>
+            </tr>
+            <tr>
+                <td>2019</td>
+                <td>2.6</td>
+                <td>4.0</td>
+                <td>3.6</td>
+            </tr>
+            <tr>
+                <td>2020</td>
+                <td>2.2</td>
+                <td>4.0</td>
+                <td>3.7</td>
+            </tr>
+            <tr>
+                <td>2021</td>
+                <td>1.9</td>
+                <td>4.0</td>
+                <td>3.2</td>
+            </tr>
+            <tr>
+                <td>2022</td>
+                <td>2.4</td>
+                <td>4.0</td>
+                <td>3.5</td>
+            </tr>
+        </table>
+        </article>
+        <article class="blog-post">
+        <h3>Workforce</h3>
+        <p><em>Published on November 5, 2023 by Michael Sabo</em></p>
+        <img src="closed.png" alt="Blog Post Image" height="250" width="300">
+        <p>The COVID-19 pandemic triggered a severe shift in the global job market, reshaping the professional landscape in ways that were unimaginable just a few years ago. As the virus began to spread, businesses faced unprecedented challenges, leading to widespread job disruptions. Lockdowns and social distancing measures forced many industries, particularly those reliant on physical presence, to scale back or shut down temporarily. This impacted jobs in sectors like hospitality, tourism, and retail, leaving countless individuals unemployed.</p>
+        <p>Moreover, remote work became the new norm for those fortunate enough to retain their jobs, altering the traditional office setup. While this shift offered flexibility, it also highlighted the digital divide, with some workers facing challenges in adapting to virtual environments. Additionally, job seekers encountered a more competitive market as companies reassessed their hiring strategies and priorities. The gig economy also felt the tremors of the pandemic, with freelancers facing uncertainties as demand fluctuated. Job security became a major concern as layoffs became more common.</p>
+        <p>In essence, COVID-19 reshaped the job landscape, emphasizing the importance of adaptability and digital skills. The aftermath of the pandemic calls for a collective effort to rebuild, fostering a more resilient and inclusive job market for the post-pandemic era.</p>
+        </article>
+    </section>
+    <footer>
+        <form>
+            <label>Subscribe to our newsletter:
+                <input type="text">
+            </label>
+            <button>Subscribe</button>
+        </form>
+    </footer>
 </body>
 </html>
