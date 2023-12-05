@@ -26,6 +26,18 @@ p {
     line-height: 1.4em;
 }
 
+td {
+    text-align: center;
+}
+
+th{
+    padding: 10px;
+}
+
+article{
+    text-indent: 20px;
+}
+/*two column flex*/
 #blog {
     border-top: 1px dotted #ccc;
     display: flex;
@@ -38,17 +50,6 @@ p {
     margin-right: 20px;
 }
 
-td {
-    text-align: center;
-}
-
-th{
-    padding: 10px;
-}
-
-article{
-    text-indent: 20px;
-}
 /*navigation bar*/
 nav ul {
     list-style: none;
