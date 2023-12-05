@@ -49,7 +49,7 @@ th{
 article{
     text-indent: 20px;
 }
-
+/*navigation bar*/
 nav ul {
     list-style: none;
     display: flex;
@@ -76,9 +76,13 @@ header {
 footer {
     margin-top: 20px;
 }
-
+/*image float and caption*/
 figure {
     float: right;
     margin-right: 20px;
+}
+figcaption{
+    font-size: 0.9em;
+    margin-bottom: 5px;
 }
 
