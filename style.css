@@ -28,3 +28,16 @@ p {
 .blog-post {
     border-bottom: 1px dotted #ccc;
 }
+
+td {
+    text-align: center;
+}
+
+th{
+    padding: 10px;
+}
+
+article{
+    text-indent: 20px;
+}
+
