@@ -12,21 +12,30 @@ body {
 }
 
 h1 {
-    font-size: 3em;
-    margin: 0;
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+h2 {
+    text-align: center;
+    font-size: 1.5em;
+    margin-bottom: 10px;
 }
 
 p {
     line-height: 1.4em;
-    width: 400px;
 }
 
 #blog {
     border-top: 1px dotted #ccc;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .blog-post {
     border-bottom: 1px dotted #ccc;
+    flex: 1;
+    margin-right: 20px;
 }
 
 td {
@@ -39,5 +48,37 @@ th{
 
 article{
     text-indent: 20px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    background: #333;
+    padding: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+header {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    position: sticky;
+    top: 0;
+}
+
+footer {
+    margin-top: 20px;
+}
+
+figure {
+    float: right;
+    margin-right: 20px;
 }
 
